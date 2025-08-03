@@ -204,7 +204,7 @@ main{
      
     }
     .line{
-    //  margin-top: 2rem;
+     margin-top: 2rem;
      margin-left: 20rem;
      margin-right: 30rem;
        justify-content: center;
@@ -213,9 +213,18 @@ main{
         background-color: #ccc;
         display: flex;
         justify-content: center;
+        
 
         button{
-            
+            background-color: #20211A;
+            color: #ccc;
+            height: 3rem;
+            border-radius: 2rem;
+            position: absolute;
+            left: 47%;
+        bottom:-30%;
+        padding: 1rem;
+
         }
     }
  }
